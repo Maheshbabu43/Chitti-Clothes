@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon-apple.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta
+      name="description"
+      content="chitti clothes is a fashion clothes company which provides the best and affordable fashion clothes to each and everyone"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="script.js"></script>
+    <title>Chitti Clothes &mdash; Get the best</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          src="img/chitti-clothes-logo-Photoroom.png"
+          alt="chitti clothes logo"
+          class="nav-logo"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#new-arrivals" class="nav-item">New arrivals</a>
+          </li>
+          <li><a href="#products" class="nav-item">Products</a></li>
+          <li>
+            <a href="#testimonials" class="nav-item">Testimonials</a>
+          </li>
+          <li>
+            <a href="#cta" class="nav-item cta-link">Get started</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-btn">
+        <ion-icon name="menu-outline" class="nav icon-menu"></ion-icon>
+        <ion-icon name="close-outline" class="nav icon-close"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero grid grid--2-cols">
+          <div class="hero-text">
+            <h2 class="heading-primary">
+              Discover Fashion that Speaks to Your Unique Style
+            </h2>
+            <p class="hero-description">
+              Unveil the latest trends and timeless classics at our online
+              fashion store, where style meets quality. Elevate your wardrobe
+              effortlessly with our curated collection for every occasion.
+            </p>
+            <a href="#new-arrivals" class="hero-cta">Shop now</a>
+          </div>
+          <picture>
+            <source srcset="img/hero-webp.webp" type="image/webp" />
+            <source srcset="img/hero-min.png" type="image/png" />
+            <img
+              src="img/hero-min.png"
+              alt="woman wearing a fashion dress"
+              class="hero-img"
+            />
+          </picture>
+        </div>
+      </section>
+      <section class="section-new-arrivals" id="new-arrivals">
+        <div class="container">
+          <div class="headings">
+            <p class="heading-teritiary">New arrivals</p>
+            <h2 class="heading-secondary">Get the best for your style</h2>
+          </div>
+          <div class="grid grid--2-cols grid--center-items">
+            <div>
+              <p class="new-arrival-title">Floral Breeze Dress</p>
+              <p class="new-arrival-description">
+                The dress features a colorful floral pattern. The fabric is
+                lightweight and flowy, making it ideal for warm weather. Perfect
+                for summer outings or beach trips!
+              </p>
+            </div>
+            <div class="new-arrival-img-box">
+              <img
+                src="img/new-arrival-1.jpg"
+                alt="woman fashion dress"
+                class="new-arrival-img"
+              />
+            </div>
+            <div class="new-arrival-img-box">
+              <img
+                src="img/new-arrival-2.jpg"
+                alt="woman fashion dress"
+                class="new-arrival-img"
+              />
+            </div>
+            <div class="new-arrival-text">
+              <p class="new-arrival-title">Chic Blazer Dress</p>
+              <p class="new-arrival-description">
+                This stylish ensemble features a sleek black blazer with elegant
+                leather accents on the lapels. Fashionable look that's perfect
+                for professional look.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-products" id="products">
+        <div class="container">
+          <div class="products">
+            <div class="headings text--center">
+              <p class="heading-teritiary">More products</p>
+              <h2 class="heading-secondary">Recommended for you</h2>
+            </div>
+            <div class="product grid grid--3-cols">
+              <div class="product-box">
+                <img
+                  src="img/product-1.jpg"
+                  alt="shirt image"
+                  class="product-img"
+                />
+                <div class="product-description-box">
+                  <p class="product-name">Elegance Shirt</p>
+                  <div class="product-rating-box">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="product-icon star"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <p class="product-rating">
+                      <strong>4.3</strong> <span>(3000 Reviews)</span>
+                    </p>
+                  </div>
+                  <div class="product-price-box">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="product-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 8.25H9m6 3H9m3 6-3-3h1.5a3 3 0 1 0 0-6M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      />
+                    </svg>
+                    <p class="product-price">2000.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box">
+                <img
+                  src="img/product-2.jpg"
+                  alt="bridal dress"
+                  class="product-img"
+                />
+                <div class="product-description-box">
+                  <p class="product-name">Bridal Collection</p>
+                  <div class="product-rating-box">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="product-icon star"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <p class="product-rating">
+                      <strong>4.9</strong> <span>(2342 Reviews)</span>
+                    </p>
+                  </div>
+                  <div class="product-price-box">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="product-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 8.25H9m6 3H9m3 6-3-3h1.5a3 3 0 1 0 0-6M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      />
+                    </svg>
+                    <p class="product-price">9000.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-box last-product">
+                <img
+                  src="img/product-3.jpg"
+                  alt="sweat shirt"
+                  class="product-img"
+                />
+                <div class="product-description-box">
+                  <p class="product-name">Sweatshirt Serenity</p>
+                  <div class="product-rating-box">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="product-icon star"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <p class="product-rating">
+                      <strong>4.8</strong> <span>(900 Reviews)</span>
+                    </p>
+                  </div>
+                  <div class="product-price-box">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="product-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 8.25H9m6 3H9m3 6-3-3h1.5a3 3 0 1 0 0-6M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      />
+                    </svg>
+                    <p class="product-price">4000.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="features grid grid--4-cols">
+            <div class="feature">
+              <div class="feature-icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+                  />
+                </svg>
+              </div>
+              <p class="feature-title">Product Catalog</p>
+              <p class="feature-description">
+                Extensive collection of classic and fashion items, High-quality
+                images and more
+              </p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"
+                  />
+                </svg>
+              </div>
+              <p class="feature-title">High Quality</p>
+              <p class="feature-description">
+                Each item is crafted using high-grade materials to ensure
+                durability and comfort.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
+                  />
+                </svg>
+              </div>
+              <p class="feature-title">Fast Shipping</p>
+              <p class="feature-description">
+                Various shipping options, including express delivery and
+                real-time tracking.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="feature-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z"
+                  />
+                </svg>
+              </div>
+              <p class="feature-title">Promotional Offers</p>
+              <p class="feature-description">
+                Exclusive discounts, sales, and loyalty programs to reward
+                regular customers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials" id="testimonials">
+        <div class="container">
+          <div class="headings">
+            <p class="heading-teritiary">Testimonials</p>
+            <h2 class="heading-secondary">Hear from Our Stylish Customers</h2>
+          </div>
+          <div class="testimonial grid grid--2-cols">
+            <div class="testimonial-box">
+              <div class="testimonial-img-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="testimonial-img"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "I recently purchased a dress from this online fashion store.
+                The dress arrived quickly and was beautifully packaged. The
+                quality of the fabric and stitching exceeded my expectations."
+                <span>&mdash; Harika Kotha</span>
+              </blockquote>
+            </div>
+            <div class="testimonial-box">
+              <div class="testimonial-img-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="testimonial-img"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "I am so impressed with my recent purchase from this online
+                fashion store!. The quality is top-notch, and the delivery was
+                quicker than expected. Overall, a fantastic shopping
+                experience."
+
+                <span>&mdash; Malle Pavani</span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta grid--cta">
+            <div class="cta-text-box">
+              <h2 class="heading-cta">Start shopping today</h2>
+              <p class="cta-description">
+                High quality and premium designs are waiting for you. Start
+                styling yourself beautiful today
+              </p>
+              <form class="cta-form grid grid--2-cols grid--low-gap" netlify>
+                <div>
+                  <label for="text" class="cta-label">Full name</label>
+                  <input
+                    name="Full-name"
+                    id="text"
+                    type="text"
+                    class="cta-input"
+                    placeholder="Jessica"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email" class="cta-label">Email address</label>
+                  <input
+                    name="Email"
+                    id="email"
+                    type="email"
+                    class="cta-input"
+                    placeholder="hello@gmail.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="cta-where">Where did you hear from us?</label>
+                  <select id="cta-where" class="cta-select" name="Select-where">
+                    <option value="Friends and Family">
+                      Friends and family
+                    </option>
+                    <option value="Youtube video">Youtbe video</option>
+                    <option value="Podcast">Podcast</option>
+                    <option value="Facebook ad">Facebook ad</option>
+                    <option value="Others">Others</option>
+                  </select>
+                </div>
+                <button class="cta-btn">Sign up now</button>
+              </form>
+            </div>
+            <div class="cta-img-box">
+              <img src="img/cta.png" alt="t-shirt image" class="cta-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container grid--footer">
+        <div class="footer-logos">
+          <a href="#">
+            <img
+              src="img/chitti-clothes-logo-Photoroom.png"
+              alt="chitti clothes logo"
+              class="nav-logo"
+            />
+          </a>
+          <div class="logos">
+            <ion-icon name="logo-instagram" class="footer-icon"></ion-icon>
+            <ion-icon name="logo-twitter" class="footer-icon"></ion-icon>
+            <ion-icon name="logo-facebook" class="footer-icon"></ion-icon>
+          </div>
+          <p class="footer-text">
+            Copyright &copy; <span class="year">2024</span> by chitti clothes,
+            Inc. All rights reserved
+          </p>
+        </div>
+        <div class="contact">
+          <p class="footer-title">Contact us</p>
+          <p class="address">Gachibowli, Kondapur, Hyderabad</p>
+          <p>
+            <a href="tel:415-201-6370" class="footer-link">415-201-6370</a
+            ><a href="mailto:hello@chitticlothes.com" class="footer-link"
+              >hello@chitticlothes.com</a
+            >
+          </p>
+        </div>
+        <div class="account">
+          <p class="footer-title">Account</p>
+          <ul class="footer-list">
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">app</a></li>
+            <li><a href="#">Android app</a></li>
+          </ul>
+        </div>
+        <div class="company">
+          <p class="footer-title">Company</p>
+          <ul class="footer-list">
+            <li><a href="#">About Chitti clothes</a></li>
+            <li><a href="#">For Business</a></li>
+            <li><a href="#">Clothing partners</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="resources">
+          <p class="footer-title">Resources</p>
+          <ul class="footer-list">
+            <li><a href="#">Clothes directory</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Privacy & terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
