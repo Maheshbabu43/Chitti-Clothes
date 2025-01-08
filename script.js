@@ -43,3 +43,23 @@ const yearEl = document.querySelector(".year");
 const year = new Date().getFullYear();
 console.log(year);
 yearEl.textContent = year;
+
+// Revealing sections
+const secObserve = function (entries, observer) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.remove("hidden");
+    observer.unobserve(entry.target);
+  });
+};
+
+const allSections = document.querySelectorAll(".section");
+console.log(allSections);
+const sectionObserver = new IntersectionObserver(secObserve, {
+  root: null,
+  threshold: 0.15,
+});
+allSections.forEach((section) => {
+  section.classList.add("hidden");
+  sectionObserver.observe(section);
+});

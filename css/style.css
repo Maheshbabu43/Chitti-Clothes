@@ -28,7 +28,7 @@
   color: #000;
   transition: all 0.3s;
   padding: 1.2rem 2.4rem;
-  border-radius: 9px;
+  border-radius: 4rem;
 }
 
 .nav-item:hover,
@@ -121,6 +121,7 @@
 /**********************/
 .section-new-arrivals {
   padding: 9.6rem 0;
+  transition: all 0.5s;
 }
 
 .new-arrival-title {
@@ -155,14 +156,14 @@
 
 .new-arrival-img-box::before {
   width: 80%;
-  padding-bottom: 80%;
+  padding-bottom: 76%;
   background-color: #e9ecef;
   z-index: -2;
 }
 
 .new-arrival-img-box::after {
   width: 65%;
-  padding-bottom: 65%;
+  padding-bottom: 61%;
   background-color: #dee2e6;
   z-index: -1;
 }
@@ -177,6 +178,7 @@
 /**********************/
 .section-products {
   padding: 9.6rem 0;
+  transition: all 0.5s;
 }
 
 .products {
@@ -274,6 +276,7 @@
 /**********************/
 .section-testimonials {
   padding: 9.6rem 0;
+  transition: all 0.5s;
 }
 
 .testimonial-box {
@@ -308,6 +311,7 @@
 .section-cta {
   padding: 9.6rem 0;
   border-bottom: 1px solid #dee2e6;
+  transition: all 0.5s;
 }
 .cta {
   border-radius: 11px;
@@ -459,4 +463,11 @@ footer {
   flex-direction: column;
   gap: 2.4rem;
   color: #495057;
+}
+
+/* REVEALING SECTIONS */
+.hidden {
+  transform: translateY(10rem);
+  opacity: 0;
+  visibility: hidden;
 }
