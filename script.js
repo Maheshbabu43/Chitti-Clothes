@@ -41,7 +41,6 @@ observer.observe(hero);
 // DISPLAY CURRENT YEAR FOOTER
 const yearEl = document.querySelector(".year");
 const year = new Date().getFullYear();
-console.log(year);
 yearEl.textContent = year;
 
 // Revealing sections
@@ -54,7 +53,6 @@ const secObserve = function (entries, observer) {
 };
 
 const allSections = document.querySelectorAll(".section");
-console.log(allSections);
 const sectionObserver = new IntersectionObserver(secObserve, {
   root: null,
   threshold: 0.15,
